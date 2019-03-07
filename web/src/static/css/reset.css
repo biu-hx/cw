@@ -1,0 +1,181 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td, figure, figcaption {
+    font-family: 'Microsoft YaHei', 'sans-serif', 'Arial';
+    margin: 0;
+    padding: 0;
+}
+
+/*strong{font-weight: normal;}*/
+img {
+    border: none;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    outline: 0;
+    -webkit-text-size-adjust: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+input, button {
+    outline: none;
+    border: none;
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+
+input[type=radio] {
+    -webkit-appearance: radio;
+}
+
+input[type=checkbox] {
+    -webkit-appearance: checkbox;
+}
+
+a {
+    text-decoration: none;
+    color: #444444;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-appearance: none;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+    overflow: hidden;
+    visibility: visible;
+    width: 0;
+    height: 0;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.tm {
+    text-align: center;
+}
+
+.tl {
+    text-align: left;
+}
+
+.tr {
+    text-align: right;
+}
+
+.inm {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.int {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.inb {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.tb {
+    display: table-cell;
+    width: 50%;
+}
+
+.relative {
+    position: relative;
+}
+
+.ani {
+    position: absolute
+}
+
+.ellipsis {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.ellipsis-2 {
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.ellipsis-3 {
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+
+.ellipsis-4 {
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+}
+
+.ellipsis-5 {
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+    -webkit-line-clamp: 5;
+    overflow: hidden;
+}
+
+.ellipsis-6 {
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+    -webkit-line-clamp: 6;
+    overflow: hidden;
+}
+
+.col_f {
+    color: #ffffff;
+}
+
+.bg_f {
+    background: #ffffff;
+}
+#app{
+	height: 100%;
+}
+body {
+    height: 100%;
+    /*box-sizing: border-box;*/
+    overflow: auto; /* winphone8和android4+ */
+    -webkit-overflow-scrolling: touch; /* ios5+ */
+}
